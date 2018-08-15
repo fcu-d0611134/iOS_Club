@@ -8,25 +8,29 @@
 
 import Foundation
 class  Cars {
-    private var brand:String? //廠牌
+    internal var brand:String? //廠牌
     private var plate:String? //車牌
-    private var consume:Double? //耗油量
-    private var capcity:Double? //油箱大小
-    private var stock:Double? //油量
+    internal var consume:Double? //耗油量
+    internal var capcity:Double? //油箱大小
+    internal var stock:Double? //油量
     private var miles:Double? //里程
-    private var passengers:Int? //乘客
-    private var goods:Int? //貨物
+    internal var passengers:Int? //乘客
+    internal var goods:Int? //貨物
+    
+    internal var type:String? //型態
     
     public init(brand:String, plate:String){
         self.brand = brand
         self.plate = plate
         self.consume = 1
-        self.stock = 1
-        self.capcity = stock
+        self.capcity = 1
+        self.stock = capcity
         self.miles = 0
         self.passengers = 0
         self.goods = 0
     }
+    
+   
     
     public func setPlate(plate:String){
         if plate.count == 6{
@@ -85,5 +89,8 @@ class  Cars {
     }
     public func getGoods() -> Int?{
         return self.goods
+    }
+    public func getType() -> String?{
+        return self.type
     }
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2471485D2123F58100B3DC6A /* Rv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2471485C2123F58100B3DC6A /* Rv.swift */; };
+		2471485F2123F5A100B3DC6A /* Truck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2471485E2123F5A100B3DC6A /* Truck.swift */; };
 		24FD5AB52122A13700B46A3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD5AB42122A13700B46A3F /* AppDelegate.swift */; };
 		24FD5AB72122A13700B46A3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD5AB62122A13700B46A3F /* ViewController.swift */; };
 		24FD5ABA2122A13700B46A3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24FD5AB82122A13700B46A3F /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2471485C2123F58100B3DC6A /* Rv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rv.swift; sourceTree = "<group>"; };
+		2471485E2123F5A100B3DC6A /* Truck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Truck.swift; sourceTree = "<group>"; };
 		24FD5AB12122A13700B46A3F /* iOS_Club.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Club.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24FD5AB42122A13700B46A3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24FD5AB62122A13700B46A3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 				24FD5ABD2122A13700B46A3F /* LaunchScreen.storyboard */,
 				24FD5AC02122A13700B46A3F /* Info.plist */,
 				24FD5AE22122A31A00B46A3F /* Car.swift */,
+				2471485C2123F58100B3DC6A /* Rv.swift */,
+				2471485E2123F5A100B3DC6A /* Truck.swift */,
 			);
 			path = iOS_Club;
 			sourceTree = "<group>";
@@ -264,6 +270,8 @@
 			files = (
 				24FD5AB72122A13700B46A3F /* ViewController.swift in Sources */,
 				24FD5AE32122A31A00B46A3F /* Car.swift in Sources */,
+				2471485F2123F5A100B3DC6A /* Truck.swift in Sources */,
+				2471485D2123F58100B3DC6A /* Rv.swift in Sources */,
 				24FD5AB52122A13700B46A3F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
